@@ -15,3 +15,4 @@ jobs:
  　　　　  curl -L https://raw.githubusercontent.com/douonblog/dlsite-ranking-bot/main/dlsite_ranking_colab.py | python3
 
 #　再保存のためのコメント
+#　再保存のためのコメント
