@@ -1,0 +1,15 @@
+name: Run Colab Daily
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # 毎日午前5時（日本時間）に実行（UTC+9）
+  workflow_dispatch:
+
+jobs:
+  run-notebook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call Google Colab Notebook
+        run: |
+          curl -L https://raw.githubusercontent.com/douonblog/dlsite-ranking-bot/main/dlsite_ranking_colab.ipynb
