@@ -1,4 +1,4 @@
-name: Run DLsite Ranking Bot
+name: Run Colab Daily
 
 on:
   schedule:
