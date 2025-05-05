@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Run Colab Notebook
         run: |
-          curl -L https://raw.githubusercontent.com/douonblog/dlsite-ranking-bot/main/dlsite_ranking_colab.py | python3
+ 　　　　  curl -L https://raw.githubusercontent.com/douonblog/dlsite-ranking-bot/main/dlsite_ranking_colab.py | python3
